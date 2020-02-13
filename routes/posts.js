@@ -34,7 +34,7 @@ router.post("/add",upload.single('mainimage'),function(req,res,next){
   req.checkBody('body',"Body is required").notEmpty();
 
   //check errors
-  var errors=rqe.validationErrors();
+  var errors=req.validationErrors();
   if(errors)
   {
     res.render('addpost',{
