@@ -18,6 +18,9 @@ var categories=require("./routes/categories");
 
 var app = express();
 app.locals.moment=require('moment');
+app.locals.truncateText=function(text,length){
+  return text.substring(0,length)
+}
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
