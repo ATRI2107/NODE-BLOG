@@ -15,11 +15,9 @@
     "express-session": "*",
     "express-validator": "*",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1",
-    "mongodb":"*",
-    "monk": "^1.0.1",
-    "monk": "https://github.com/vccabral/monk.git",
     "morgan": "~1.6.1",
+    "mongodb": "*",
+    "monk": "https://github.com/vccabral/monk.git",
     "multer": "*",
     "nodemon": "^2.0.2",
     "serve-favicon": "~2.3.0"
